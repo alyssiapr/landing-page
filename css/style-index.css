@@ -93,6 +93,34 @@ nav.nav li {
     margin-bottom: 20px;
     text-transform: uppercase;
 }
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.prix {
+    align-items: center;
+    display: flex;
+}
+
+.button {
+    width: 225px;
+    text-decoration: none;
+    background-color:#5bc0be ;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    cursor: pointer;
+    color: darkcyan;
+    margin-left: 90px;
+    box-shadow: 6px 6px 0px #0b5a57;
+}
+
+.bag{
+    margin-left: 150px;
 
 @media screen {
     
