@@ -29,6 +29,7 @@ nav.nav li {
     padding: 10px 10px;
     list-style: none;
     margin-top: 20px;
+    text-decoration: none;
 
 }
 
@@ -42,6 +43,8 @@ nav.nav li {
  
 .top-page {
     background-color: white !important;
+    width: 1250px;
+    border-radius: 25px;
 }
 
 .Logo {
@@ -63,16 +66,20 @@ nav.nav li {
 }
 
 .Robot {
-    float: left;
-    display: flex;
+    float: center;
     align-items: center;
+    width: 800px;
+    margin:auto;
     
 }
 
 .Explications {
-    width: 70%;
-    margin-left: 30px;
+    display:contents;
+    margin: auto;
     line-height: 30px;
+    justify-content:center;
+    width: 1000px;
+    height: 800px;
 }
 
 .Utilisation {
@@ -92,6 +99,36 @@ nav.nav li {
     line-height: 24px;
     margin-bottom: 20px;
     text-transform: uppercase;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.prix {
+    align-items: center;
+    display: flex;
+}
+
+.button {
+    width: 225px;
+    text-decoration: none;
+    background-color:#5bc0be ;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    cursor: pointer;
+    color: darkcyan;
+    margin-left: 90px;
+    box-shadow: 6px 6px 0px #0b5a57;
+}
+
+.bag{
+    margin-left: 150px;
 }
 
 @media screen {
