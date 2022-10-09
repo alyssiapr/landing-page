@@ -103,6 +103,7 @@ nav.nav li {
 
 .video {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -131,6 +132,32 @@ nav.nav li {
     margin-left: 150px;
 }
 
-@media screen {
-    
+@media screen and (max-width:"1100px") {
+    .Utilisation {
+        width: 60%;
+    }
+    .Benefices {
+        width:60%
+    }
+    .Explications {
+        width:60%
+    }
+    .top-page {
+        width: 60px;
+       }
+}
+
+@media screen and (max-width: 800px) {
+    .Utilisation {
+    width: 100%;
+    }
+    .Benefices {
+        width: 100%;
+        }
+    .Explications {
+        width: 100%;
+        }
+    .top-page {
+         width: 100px;
+        }
 }
